@@ -21,5 +21,6 @@ public class ExampleMod
         }
         // some example code
         System.out.println("DIRT BLOCK >> " + new LocalClass().block.getUnlocalizedName());
+        throw new MaterialException("Test");
     }
 }
